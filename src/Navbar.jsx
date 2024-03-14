@@ -1,4 +1,3 @@
-import React from "react";
 import { BsBell } from "react-icons/bs";
 import Logo from "././assets/logo.png";
 
@@ -15,7 +14,7 @@ const Navbar = () => {
           />
         </a>
         {/* <!-- Notification --> */}
-        <BsBell className="w-8 h-8 cursor-pointer" />
+        <BsBell className="w-8 h-8 cursor-pointer text-gray-200" />
       </div>
     </nav>
   );
